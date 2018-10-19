@@ -1,21 +1,5 @@
 /// \file main.cpp 
-/// \brief Main file for for Demo 3.
 
-/// \mainpage Demo 3: The Sprite
-///
-/// Now we see our first simple real-time animation. A plane moves from
-/// right to left across the background. The plane is represented by
-/// an instance of the class CGameObject, which is an abstraction
-/// of a game object including physical properties such as location
-/// and speed, and a pointer to its image, which is an instance of
-/// the class C3DSprite (the term <em>sprite</em> means a small image 
-/// to be pasted in the correct place in the overall scene).
-///
-/// The executable file for this app now has an icon of a red plane
-/// instead of the default Windows icon.
-
-//test
-//#define _WINSOCKAPI_   //Prevent inclusion of winsock.h in windows.h
 #include <windows.h>
 #include <windowsx.h>
 #include <stdio.h>
@@ -25,10 +9,6 @@
 
 using std::cout;
 using std::endl;
-
-//#ifdef _DEBUG
-//  #include <vld.h> //Visual Leak Detector from http://vld.codeplex.com/
-//#endif
 
 #include "defines.h"
 #include "abort.h"
